@@ -1,0 +1,266 @@
+﻿
+
+
+.head{
+    
+    font-family:'Segoe Script';
+    color:#420808;
+    font-size:large;
+    font-style:oblique;
+    border-color:#420808;
+    text-align:center;
+    background-color:#dcc7b2; 
+
+}
+ .head2{
+    
+    
+    font-family:'Segoe Script';
+    color:#420808;
+    font-size:40px;
+    font-weight:500;
+    text-align:center;
+
+ }  
+ .head1{
+    
+    
+    font-family:'Segoe Script';
+    color:#420808;
+    font-size:50px;
+    font-weight:700;
+    text-align:center;
+
+    
+    
+
+}
+.head3{
+    
+    font-family:'Segoe Script';
+    color:#420808;
+    font-size:large;
+    font-style:oblique;
+    border-color:#420808;    
+    background-color:#dcc7b2; 
+
+}
+.brder1{
+
+    border-color:#420808;
+    border-width:2px;
+    border-style:solid;
+}
+
+
+.overlay {
+    text-align:center;
+    margin: 0 auto;
+    padding: 15px;
+    background: #dcc7b2;
+    opacity: .7;
+    color: #420808;
+    height:auto;
+    font-family:Segoe Script;
+    font-size:small;
+    border-color:#420808;
+
+   
+  
+
+}
+.btn1{
+    background-color:#FFF0F3;
+}
+.git1{
+    border-image-source:url(/github.com/cgmeiit/Inheritance-Fortune);
+
+}
+body {
+    padding-top:0px;
+    padding-bottom: 40px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.Sq3brd{
+    border-color:#420808;
+    border-width:4px;
+    border-style:solid;
+    margin-right:20px;
+
+}
+.Square
+{
+    /*padding should equal the width sides of the square divide 100 into how man ysquares on the row. */
+    float:left;
+    position:relative;
+    margin:0;
+    overflow:hidden;
+    height:50%;
+
+}
+.col-md-4.square
+{
+    padding-bottom:25%;
+    border-color:#420808;
+    border-width:2px;
+    border-style:solid;
+
+ 
+
+}
+.img-circle1 {
+  border-radius: 45%;
+  background-color:
+  
+}
+
+
+.content
+{
+    position:absolute;
+    height:80%;
+    width:90%;
+    padding:10% 5%;
+    
+}
+.table
+{
+    height:100%;
+    width:100%;
+    display:table;
+
+}
+.table-cell
+{
+    display:table-cell;
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+
+}
+/*background image stuff*/
+.bgImage 
+{
+    background-color:#454545;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+}
+.bgMain 
+{
+    background-image: url('Images/denver-skyline.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.img-circle1 {
+  border-radius:25%;
+ 
+
+  
+}
+.withImage 
+{
+    background-image: url('Images/linkdyn.PNG');
+    background-size: contain;
+    background-repeat:no-repeat;
+
+}
+.bgImage1 {
+    background-image: url('Images/sd2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+}
+.bgImage2 {
+    background-image: url('Images/Chicago.PNG');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+
+}
+.bgImage3 {
+    background-image: url('Images/Cleveland.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+}
+@media screen and (min-width: 968px) {
+  .jumbotron {
+    padding-top: 250px;
+    padding-bottom: 300px;
+  }
+  .container .jumbotron {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+  .jumbotron h1 {
+    font-size: 63px;
+  }
+   
+}
+.mainpic {
+    background-image: url('Images/denver-skyline.jpg');
+    padding-right: 15px;
+    background-size: cover;
+    min-height: 400px;
+}
+.vertical-center{
+    align-items:center;
+    display:flex;
+    min-height:300px;
+
+}
+.img-rounded {
+    border-radius:9px;
+}
+
+.body-content {
+    padding-left: 15px;
+}
+.col-md-3.square
+{
+    padding-bottom:25%
+
+}
+.btn2{
+    background-color:#FFF0F3;
+    text-decoration-color:brown;
+
+}
+.about {
+    background-image: url('Images/170919_189688574388992_8136272_o (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+}
+.nav ul {
+    margin: 1px;
+    text-align: center;
+}
+
+              
+

@@ -1,0 +1,85 @@
+﻿@model IEnumerable<CGFP.Models.ProjectsModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@foreach (var item in Model)
+{
+
+    /*making squares*/
+    <div class="col-md-3 square bgImage vertical-center " style="border-color:#420808;border-width:4px;border-style:solid;margin-right:20px;margin-bottom:20px;background-image: url('@item.Image')">
+        <div class="content">
+            <div class="table">
+                <a href="@item.GitAddress" target="_blank">
+                    <div class="Table-cell">
+                        <div class="overlay">
+                            <h2>@item.ProjectName</h2>
+                            <p>@item.DescripProject</p>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescripProject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GitAddress)
+    </th>
+</tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(model => item.Image)
+            @*<img src="@item.Image" />*@
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescripProject)
+        </td>
+        <td>
+            <a href="@item.GitAddress">@item.GitAddress</a>
+        </td>
+        <td>
+
+            @Html.ActionLink("Edit", "Edit", new { id = item.ProjectId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ProjectId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.ProjectId })
+        </td>
+    </tr>
+}
+
+</table>
+
+
+        
